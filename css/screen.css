@@ -1,0 +1,74 @@
+/*frauenkirche css*/
+
+body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #555; margin: 0; padding: 0; }
+
+#page { max-width: 1200px; margin: 0 auto; background-color: rgba(168,183,188, .2); position: relative; }
+
+/* Text */
+h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
+h2 { margin: 0 0 .5em 0; font-size: 2.4em; font-weight: 700; line-height: 1.1em; }
+h3 { margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
+h4 { margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
+
+p { margin: 0 0 1em 0; font-family: 'effra';}
+
+/*splash*/
+
+/*<a class="clickable" title="thirdRkPhoto2" href="germany_3.html"><span>germanViewBrexit</span></a>
+
+section.firstRank aside.pic .picture a.clickable {display: block; height: 490px; width: 600px;}
+section.firstRank aside.pic .picture a.clickable span {display: none;}
+
+*/
+
+section.imageOfFK a.clickable { display:block; width: 1200px; height: 700px; }
+section.imageOfFK a.clickable span { display: none;}
+
+section.imageOfFK {
+    height: 600px; max-width:1200px; margin-left: 1%; margin-right: 1%; background: no-repeat center center; background-image: url(../images/800px-Dresden_Neumarkt_T%C3%BCrkenbrunnen_Frauenkirche.jpg); background-size:contain;}
+
+section.history a.clickable { display:block; width: 1200px; height: 700px; }
+section.history a.clickable span { display: none;}
+
+section.history {
+    height: 600px; max-width:1200px; margin-left: 1%; margin-right: 1%; background: no-repeat center center; background-image: url(../images/ruinedFrauenkirche.jpg); background-size:contain; margin-top: 10%;}
+
+h2 {color:#2996BA ; font-family: 'kepler-std-display'; font-size: 2.8em; font-weight:700; font-style:normal; margin-left: 27%;}  
+
+article { margin: 1em 0 1em 0; font-family: 'effra'; }
+
+nav {
+    background-color: rgba(168,183,188, .7)/*rgba(0, 102, 153, 1) /*rgba(0,0,0, .3)*/;
+    position: absolute;
+    top: 0px; left: 0px;
+    padding: 9px 0 0 0;
+    width: 100%; 
+}
+
+nav::after { content:''; display: block; clear: both; } /*<!--??-->*/
+nav ul { list-style: none; margin: 0px; padding: 0px;}
+nav ul li:hover { background-color: #006699; } /*they go black on hover*/
+
+nav ul li:hover > ul {display:block;}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 70px;
+    position: relative;
+}
+
+nav ul li a:visited { color: #fff; }
+nav ul li a:hover { background-color: #2996BA; } /*change from red colour*/
+
+nav ul ul {position: absolute; top: 100%; background-color: #006699/*#2996BA*/; display: none;}
+nav ul ul li { position: relative; }
+
+/*top level*/
+nav > ul { padding-left: 200px; } /*spaces between menu buttons*/
+nav > ul > li { float: left; } /*push them across the header*/
+nav > ul > li > a{ width: auto; padding: 10px 20px 10px 20px;}
+
+nav { top: 102px; margin-left:5px;}
