@@ -21,6 +21,13 @@ p { margin: 0 0 1em 0; }
 
 @media screen and (max-width: 360px){
     
+    h1 {
+        font-size: 1.8em; 
+    }
+    
+    h2 { font-size: 1.2em;}
+    
+    
     .multimedia {
         margin-left: 2%; 
     }
