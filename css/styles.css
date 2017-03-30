@@ -19,6 +19,10 @@ p { margin: 0 0 1em 0; }
     margin-left: 20%; float:left;
 }
 
+.multimedia.design {
+    margin-left: 20%; float:left;
+}
+
 @media screen and (max-width: 360px){
     
     h1 {
@@ -35,5 +39,9 @@ p { margin: 0 0 1em 0; }
     .multimedia img{
         height: 27%; width:75%;    
     
+    }
+    
+    .multimedia.design img {
+        height: 24%;
     }
 }
