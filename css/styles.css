@@ -41,7 +41,11 @@ p { margin: 0 0 1em 0; }
     
     }
     
+    .multimedia.design {
+        margin-left: 2%;
+    }
+    
     .multimedia.design img {
-        margin-left: 2%; height: 20%;
+         height: 20%;
     }
 }
