@@ -24,4 +24,9 @@ p { margin: 0 0 1em 0; }
     .multimedia {
         margin-left: 2%; 
     }
+    
+    .multimedia img{
+        height: 50%; width:50%;    
+    
+    }
 }
