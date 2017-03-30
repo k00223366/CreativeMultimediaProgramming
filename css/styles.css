@@ -18,3 +18,10 @@ p { margin: 0 0 1em 0; }
 .multimedia {
     margin-left: 20%; float:left;
 }
+
+@media screen and (max-width: 360px){
+    
+    .multimedia {
+        margin-left: 2%; 
+    }
+}
